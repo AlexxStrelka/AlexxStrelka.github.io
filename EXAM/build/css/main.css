@@ -1,0 +1,881 @@
+*,
+*::before,
+*::after {
+  font-family: inherit;
+  box-sizing: inherit; }
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: inherit;
+  vertical-align: baseline; }
+
+html {
+  box-sizing: border-box; }
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  display: block; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url("fonts/Montserrat-Regular.ttf");
+  font-style: normal;
+  font-weight: 500; }
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url("fonts/Montserrat-Bold.ttf");
+  font-style: normal;
+  font-weight: 800; }
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url("fonts/Roboto-Black.ttf");
+  font-style: normal;
+  font-weight: 800; }
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url("fonts/Roboto-Bold.ttf");
+  font-style: normal;
+  font-weight: 800; }
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url("fonts/Roboto-Medium.ttf");
+  font-style: normal;
+  font-weight: 500; }
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url("fonts/Roboto-Light.ttf");
+  font-style: normal;
+  font-weight: 300; }
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url("fonts/Roboto-Thin.ttf");
+  font-style: normal;
+  font-weight: 100; }
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url("fonts/Roboto-Regular.ttf");
+  font-style: normal;
+  font-weight: 400; }
+@media (min-width: 1440px) {
+  .header {
+    position: relative;
+    height: 700px;
+    background: url(img/header_bg.jpg) center no-repeat;
+    background-size: cover; }
+    .header .LoginArea {
+      display: inline-block;
+      float: right;
+      width: 441px;
+      height: 60px;
+      padding: 35px 240px 0 0; }
+      .header .LoginArea a {
+        display: inline-block;
+        width: 75px;
+        height: 36px;
+        text-decoration: none;
+        cursor: pointer;
+        color: white;
+        border: solid 2px transparent;
+        border-radius: 20px;
+        text-align: center;
+        padding-top: 9px;
+        transition: border-color 0.8s;
+        font-family: 'Montserrat-Bold', sans-serif;
+        font-size: 14px; }
+        .header .LoginArea a:hover {
+          border-color: white; }
+        .header .LoginArea a.signUp {
+          width: 85px; }
+    .header h1 {
+      display: inline-block;
+      padding: 45px 0 0 236px;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 20px;
+      letter-spacing: 2px;
+      color: white; }
+    .header h2 {
+      padding-top: 165px;
+      text-align: center;
+      line-height: 60px;
+      text-transform: uppercase;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 52px;
+      color: white; }
+    .header h3 {
+      padding-top: 30px;
+      text-align: center;
+      font-family: 'Roboto-Thin', sans-serif;
+      font-size: 24px;
+      color: white; }
+    .header .findButton {
+      padding-top: 35px;
+      text-align: center; }
+      .header .findButton a {
+        width: 220px;
+        height: 40px;
+        text-align: center;
+        padding-top: 12px;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+        color: white;
+        background-color: #ff4e50;
+        border-radius: 20px;
+        transition: color 0.8s, background-color 0.8s;
+        font-family: 'Montserrat-Bold', sans-serif;
+        font-size: 14px; }
+        .header .findButton a:hover {
+          background-color: white;
+          color: #ff4e50; } }
+@media (max-width: 767px) {
+  .header {
+    width: 100%;
+    height: 537px;
+    background: url(img/headerMobile_bg.jpg) center no-repeat; }
+    .header .LoginArea {
+      width: 170px;
+      height: 60px;
+      margin: auto;
+      padding-top: 18px; }
+      .header .LoginArea a {
+        display: inline-block;
+        width: 75px;
+        height: 36px;
+        text-decoration: none;
+        cursor: pointer;
+        color: white;
+        border: solid 2px transparent;
+        border-radius: 20px;
+        text-align: center;
+        padding-top: 9px;
+        transition: border-color 0.8s;
+        font-family: 'Montserrat-Regular', sans-serif;
+        font-size: 14px;
+        font-weight: bold; }
+        .header .LoginArea a:hover {
+          border-color: white; }
+        .header .LoginArea a.signUp {
+          width: 85px; }
+    .header h1 {
+      padding-top: 115px;
+      text-align: center;
+      letter-spacing: 2px;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 20px;
+      color: white; }
+    .header h2 {
+      padding-top: 38px;
+      text-align: center;
+      line-height: 35px;
+      text-transform: uppercase;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 30px;
+      color: white; }
+    .header h3 {
+      display: block;
+      width: 225px;
+      padding-top: 13px;
+      margin: auto;
+      text-align: center;
+      font-family: 'Roboto-Thin', sans-serif;
+      font-size: 18px;
+      color: white; }
+    .header .findButton {
+      padding-top: 20px;
+      text-align: center; }
+      .header .findButton a {
+        width: 280px;
+        height: 40px;
+        text-align: center;
+        padding-top: 12px;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+        color: white;
+        background-color: #ff4e50;
+        border-radius: 20px;
+        transition: color 0.8s, background-color 0.8s;
+        font-family: 'Montserrat-Regular', sans-serif;
+        font-size: 14px;
+        font-weight: bold; }
+        .header .findButton a:hover {
+          background-color: white;
+          color: #ff4e50; } }
+@media (min-width: 768px) and (max-width: 1439px) {
+  .header {
+    position: relative;
+    height: 700px;
+    background: url(img/header_bg.jpg) center no-repeat;
+    background-size: cover; }
+    .header .LoginArea {
+      display: inline-block;
+      float: right;
+      width: 441px;
+      height: 60px;
+      padding: 35px 240px 0 0; }
+      .header .LoginArea a {
+        display: inline-block;
+        width: 75px;
+        height: 36px;
+        text-decoration: none;
+        cursor: pointer;
+        color: white;
+        border: solid 2px transparent;
+        border-radius: 20px;
+        text-align: center;
+        padding-top: 9px;
+        transition: border-color 0.8s;
+        font-family: 'Montserrat-Bold', sans-serif;
+        font-size: 14px; }
+        .header .LoginArea a:hover {
+          border-color: white; }
+        .header .LoginArea a.signUp {
+          width: 85px; }
+    .header h1 {
+      display: inline-block;
+      padding: 45px 0 0 236px;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 20px;
+      letter-spacing: 2px;
+      color: white; }
+    .header h2 {
+      padding-top: 165px;
+      text-align: center;
+      line-height: 60px;
+      text-transform: uppercase;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 52px;
+      color: white; }
+    .header h3 {
+      padding-top: 30px;
+      text-align: center;
+      font-family: 'Roboto-Thin', sans-serif;
+      font-size: 24px;
+      color: white; }
+    .header .findButton {
+      padding-top: 35px;
+      text-align: center; }
+      .header .findButton a {
+        width: 220px;
+        height: 40px;
+        text-align: center;
+        padding-top: 12px;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+        color: white;
+        background-color: #ff4e50;
+        border-radius: 20px;
+        transition: color 0.8s, background-color 0.8s;
+        font-family: 'Montserrat-Bold', sans-serif;
+        font-size: 14px; }
+        .header .findButton a:hover {
+          background-color: white;
+          color: #ff4e50; }
+  .header .LoginArea {
+    padding: 35px 54px 0 0;
+    width: 220px; }
+  .header h1 {
+    padding: 45px 0 0 46px; }
+  .header h2 {
+    padding-top: 155px; }
+  .header h3 {
+    padding-top: 20px; }
+  .header .findButton {
+    padding-top: 37px; } }
+
+@media (min-width: 1440px) {
+  .howItWorks {
+    background-color: white; }
+    .howItWorks h1 {
+      padding: 90px 0 33px 0;
+      text-align: center;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 22px;
+      color: #333333; }
+    .howItWorks .carousel-wrapper-block {
+      width: 940px;
+      margin: auto; }
+      .howItWorks .carousel-wrapper-block .carousel-wrapper {
+        width: 300px;
+        display: inline-block;
+        padding-rigth: 20px; }
+        .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel {
+          width: 300px;
+          height: 410px;
+          margin: auto;
+          position: relative;
+          overflow: hidden; }
+          .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel ul {
+            width: 20000em;
+            position: relative; }
+          .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item {
+            width: 300px;
+            height: 400px;
+            display: inline-block;
+            margin-bottom: 0px; }
+            .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item.step1 {
+              background: url(img/step1_desk.jpg) center no-repeat; }
+            .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item.step2 {
+              background: url(img/step2_desk.jpg) center no-repeat; }
+              .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item.step2 h2 {
+                margin-top: 28px !important; }
+            .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item.step3 {
+              background: url(img/step3_desk.jpg) center no-repeat; }
+            .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item span {
+              position: relative;
+              display: block;
+              padding: 228px 0 0 20px;
+              width: 300px;
+              height: 400px; }
+              .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item span a {
+                text-decoration: none;
+                cursor: pointer;
+                color: white; }
+                .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item span a.step_link {
+                  display: block;
+                  width: 70px;
+                  height: 19px;
+                  text-align: center;
+                  padding-top: 5px;
+                  background-color: #ff4e50;
+                  border-radius: 20px;
+                  font-family: 'Montserrat-Regular', sans-serif;
+                  font-size: 10px;
+                  text-transform: uppercase;
+                  letter-spacing: 1px;
+                  transition: color 0.8s, background-color 0.8s; }
+                  .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item span a.step_link:hover {
+                    background-color: white;
+                    color: #ff4e50; }
+              .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item span h2 {
+                display: block;
+                width: 200px;
+                padding-top: 16px;
+                font-family: 'Montserrat-Bold', sans-serif;
+                font-size: 24px;
+                line-height: 29px;
+                color: white; }
+              .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item span p {
+                padding-top: 18px;
+                display: block;
+                width: 260px;
+                font-family: 'Roboto-Thin', sans-serif;
+                font-size: 14px;
+                line-height: 16px;
+                color: white; }
+          .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .leftArrow {
+            display: block;
+            position: absolute;
+            top: 150px;
+            left: 20px; }
+          .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .rightArrow {
+            display: block;
+            position: absolute;
+            top: 150px;
+            right: 20px; } }
+@media (max-width: 767px) {
+  .howItWorks {
+    background-color: white; }
+    .howItWorks h1 {
+      padding: 35px 0 14px 0;
+      text-align: center;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 22px;
+      color: #333333; }
+    .howItWorks .carousel-wrapper-block {
+      width: 320px;
+      height: 740px;
+      margin: auto; }
+      .howItWorks .carousel-wrapper-block .carousel-wrapper {
+        width: 300px;
+        height: 240px;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px; }
+        .howItWorks .carousel-wrapper-block .carousel-wrapper ul {
+          width: 20000em;
+          position: relative; }
+        .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel {
+          width: 300px;
+          height: 240px;
+          margin: auto;
+          position: relative;
+          overflow: hidden; }
+          .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item {
+            width: 300px;
+            height: 240px;
+            display: inline-block;
+            margin: auto;
+            margin-bottom: 9px; }
+            .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item.step1 {
+              background: url(img/step1.jpg) center no-repeat; }
+            .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item.step2 {
+              background: url(img/step2.jpg) center no-repeat; }
+            .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item.step3 {
+              background: url(img/step3.jpg) center no-repeat; }
+            .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item span {
+              display: block;
+              padding: 65px 0 0 19px;
+              width: 300px;
+              height: 240px; }
+              .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item span a {
+                text-decoration: none;
+                cursor: pointer;
+                color: white; }
+                .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item span a.step_link {
+                  display: block;
+                  width: 70px;
+                  height: 19px;
+                  text-align: center;
+                  letter-spacing: 2px;
+                  padding-top: 5px;
+                  background-color: #ff4e50;
+                  border-radius: 20px;
+                  font-family: 'Montserrat-Regular', sans-serif;
+                  font-size: 10px;
+                  text-transform: uppercase;
+                  transition: color 0.8s, background-color 0.8s; }
+                  .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item span a.step_link:hover {
+                    background-color: white;
+                    color: #ff4e50; }
+              .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item span h2 {
+                display: block;
+                width: 175px;
+                padding-top: 16px;
+                font-family: 'Montserrat-Bold', sans-serif;
+                font-size: 24px;
+                line-height: 29px;
+                color: white; }
+              .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item span p {
+                padding-top: 20px;
+                display: block;
+                width: 260px;
+                font-family: 'Roboto-Thin', sans-serif;
+                font-size: 14px;
+                line-height: 16px;
+                color: white; }
+          .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .leftArrow {
+            display: none; }
+          .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .rightArrow {
+            display: none; } }
+@media (min-width: 768px) and (max-width: 1439px) {
+  .howItWorks {
+    background-color: white; }
+    .howItWorks h1 {
+      padding: 90px 0 33px 0;
+      text-align: center;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 22px;
+      color: #333333; }
+    .howItWorks .carousel-wrapper-block {
+      width: 940px;
+      margin: auto; }
+      .howItWorks .carousel-wrapper-block .carousel-wrapper {
+        width: 300px;
+        display: inline-block;
+        padding-rigth: 20px; }
+        .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel {
+          width: 300px;
+          height: 410px;
+          margin: auto;
+          position: relative;
+          overflow: hidden; }
+          .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel ul {
+            width: 20000em;
+            position: relative; }
+          .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item {
+            width: 300px;
+            height: 400px;
+            display: inline-block;
+            margin-bottom: 0px; }
+            .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item.step1 {
+              background: url(img/step1_desk.jpg) center no-repeat; }
+            .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item.step2 {
+              background: url(img/step2_desk.jpg) center no-repeat; }
+              .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item.step2 h2 {
+                margin-top: 28px !important; }
+            .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item.step3 {
+              background: url(img/step3_desk.jpg) center no-repeat; }
+            .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item span {
+              position: relative;
+              display: block;
+              padding: 228px 0 0 20px;
+              width: 300px;
+              height: 400px; }
+              .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item span a {
+                text-decoration: none;
+                cursor: pointer;
+                color: white; }
+                .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item span a.step_link {
+                  display: block;
+                  width: 70px;
+                  height: 19px;
+                  text-align: center;
+                  padding-top: 5px;
+                  background-color: #ff4e50;
+                  border-radius: 20px;
+                  font-family: 'Montserrat-Regular', sans-serif;
+                  font-size: 10px;
+                  text-transform: uppercase;
+                  letter-spacing: 1px;
+                  transition: color 0.8s, background-color 0.8s; }
+                  .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item span a.step_link:hover {
+                    background-color: white;
+                    color: #ff4e50; }
+              .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item span h2 {
+                display: block;
+                width: 200px;
+                padding-top: 16px;
+                font-family: 'Montserrat-Bold', sans-serif;
+                font-size: 24px;
+                line-height: 29px;
+                color: white; }
+              .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item span p {
+                padding-top: 18px;
+                display: block;
+                width: 260px;
+                font-family: 'Roboto-Thin', sans-serif;
+                font-size: 14px;
+                line-height: 16px;
+                color: white; }
+          .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .leftArrow {
+            display: block;
+            position: absolute;
+            top: 150px;
+            left: 20px; }
+          .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .rightArrow {
+            display: block;
+            position: absolute;
+            top: 150px;
+            right: 20px; }
+  .howItWorks .carousel-wrapper-block {
+    width: 770px; }
+    .howItWorks .carousel-wrapper-block .carousel-wrapper {
+      width: 228px;
+      margin: 0 10px 0 10px;
+      padding-right: 0; }
+      .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel {
+        width: 228px;
+        height: 400px;
+        border-radius: 5px; }
+        .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item {
+          width: 228px;
+          height: 400px; }
+          .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item.step1 {
+            background: url(img/step1_desk.jpg) center no-repeat; }
+          .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item.step2 {
+            background: url(img/step2_desk.jpg) center no-repeat; }
+            .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item.step2 h2 {
+              margin-top: 28px !important; }
+          .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item.step3 {
+            background: url(img/step3_desk.jpg) center no-repeat; }
+          .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item span {
+            padding: 210px 0 0 20px;
+            width: 228px; }
+            .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item span p {
+              width: 205px; }
+        .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .leftArrow {
+          top: 37px; }
+        .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .rightArrow {
+          top: 37px; } }
+
+@media (min-width: 1440px) {
+  .meetPartners {
+    background-color: white; }
+    .meetPartners h1 {
+      padding: 95px 0 30px 0;
+      text-align: center;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 22px;
+      color: #333333; }
+    .meetPartners .partner {
+      text-align: center; }
+      .meetPartners .partner figure {
+        display: inline-block;
+        position: relative;
+        width: 220px;
+        height: 240px;
+        text-align: center; }
+        .meetPartners .partner figure img {
+          border-radius: 70px; }
+        .meetPartners .partner figure span {
+          position: absolute;
+          z-index: 99;
+          width: 42px;
+          height: 43px;
+          top: 86px;
+          right: 45px; }
+          .meetPartners .partner figure span.TVicon {
+            background: url(img/meetPartnerIcon_sprite.png) 0px -126px no-repeat; }
+          .meetPartners .partner figure span.bottleIcon {
+            background: url(img/meetPartnerIcon_sprite.png) 0px -43px no-repeat; }
+          .meetPartners .partner figure span.cupIcon {
+            background: url(img/meetPartnerIcon_sprite.png) 0px -86px no-repeat; }
+          .meetPartners .partner figure span.planeIcon {
+            background: url(img/meetPartnerIcon_sprite.png) 0px 0px no-repeat; }
+        .meetPartners .partner figure h2 {
+          padding: 20px 0 0 0; }
+          .meetPartners .partner figure h2 a {
+            text-decoration: none;
+            font-family: 'Montserrat-Bold', sans-serif;
+            font-size: 14px;
+            color: #333333; }
+        .meetPartners .partner figure figcaption {
+          padding: 13px 0 0 0;
+          font-family: 'Roboto-Light', sans-serif;
+          font-size: 14px;
+          color: #666666; }
+    .meetPartners a.partner_link {
+      display: block;
+      width: 185px;
+      height: 36px;
+      margin: auto;
+      margin-top: 35px;
+      text-decoration: none;
+      text-align: center;
+      line-height: 31px;
+      background-color: white;
+      border-radius: 20px;
+      border: solid 2px #ff4e50;
+      transition: color 0.8s, background-color 0.8s;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 14px;
+      color: #ff4e50; }
+      .meetPartners a.partner_link:hover {
+        background-color: #ff4e50;
+        color: white; } }
+@media (max-width: 767px) {
+  .meetPartners {
+    background-color: white; }
+    .meetPartners h1 {
+      padding: 27px 0 0 0;
+      text-align: center;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 22px;
+      color: #333333; }
+    .meetPartners figure {
+      margin: auto;
+      position: relative;
+      width: 215px;
+      padding: 18px 0 0 0;
+      text-align: center; }
+      .meetPartners figure img {
+        border-radius: 70px; }
+      .meetPartners figure span {
+        position: absolute;
+        z-index: 99;
+        width: 42px;
+        height: 43px;
+        top: 108px;
+        right: 45px; }
+        .meetPartners figure span.TVicon {
+          background: url(img/meetPartnerIcon_sprite.png) 0px -126px no-repeat; }
+        .meetPartners figure span.bottleIcon {
+          background: url(img/meetPartnerIcon_sprite.png) 0px -43px no-repeat; }
+        .meetPartners figure span.cupIcon {
+          background: url(img/meetPartnerIcon_sprite.png) 0px -86px no-repeat; }
+        .meetPartners figure span.planeIcon {
+          background: url(img/meetPartnerIcon_sprite.png) 0px 0px no-repeat; }
+      .meetPartners figure h2 {
+        padding: 20px 0 0 0; }
+        .meetPartners figure h2 a {
+          text-decoration: none;
+          font-family: 'Montserrat-Bold', sans-serif;
+          font-size: 14px;
+          color: #333333; }
+      .meetPartners figure figcaption {
+        padding: 13px 0 0 0;
+        font-family: 'Roboto-Light', sans-serif;
+        font-size: 14px;
+        color: #666666; }
+    .meetPartners a.partner_link {
+      display: block;
+      width: 278px;
+      height: 36px;
+      margin: auto;
+      margin-top: 25px;
+      text-decoration: none;
+      text-align: center;
+      line-height: 31px;
+      background-color: white;
+      border-radius: 20px;
+      border: solid 2px #ff4e50;
+      transition: color 0.8s, background-color 0.8s;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 14px;
+      color: #ff4e50; }
+      .meetPartners a.partner_link:hover {
+        background-color: #ff4e50;
+        color: white; } }
+@media (min-width: 768px) and (max-width: 1439px) {
+  .meetPartners {
+    background-color: white; }
+    .meetPartners h1 {
+      padding: 95px 0 30px 0;
+      text-align: center;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 22px;
+      color: #333333; }
+    .meetPartners .partner {
+      text-align: center; }
+      .meetPartners .partner figure {
+        display: inline-block;
+        position: relative;
+        width: 220px;
+        height: 240px;
+        text-align: center; }
+        .meetPartners .partner figure img {
+          border-radius: 70px; }
+        .meetPartners .partner figure span {
+          position: absolute;
+          z-index: 99;
+          width: 42px;
+          height: 43px;
+          top: 86px;
+          right: 45px; }
+          .meetPartners .partner figure span.TVicon {
+            background: url(img/meetPartnerIcon_sprite.png) 0px -126px no-repeat; }
+          .meetPartners .partner figure span.bottleIcon {
+            background: url(img/meetPartnerIcon_sprite.png) 0px -43px no-repeat; }
+          .meetPartners .partner figure span.cupIcon {
+            background: url(img/meetPartnerIcon_sprite.png) 0px -86px no-repeat; }
+          .meetPartners .partner figure span.planeIcon {
+            background: url(img/meetPartnerIcon_sprite.png) 0px 0px no-repeat; }
+        .meetPartners .partner figure h2 {
+          padding: 20px 0 0 0; }
+          .meetPartners .partner figure h2 a {
+            text-decoration: none;
+            font-family: 'Montserrat-Bold', sans-serif;
+            font-size: 14px;
+            color: #333333; }
+        .meetPartners .partner figure figcaption {
+          padding: 13px 0 0 0;
+          font-family: 'Roboto-Light', sans-serif;
+          font-size: 14px;
+          color: #666666; }
+    .meetPartners a.partner_link {
+      display: block;
+      width: 185px;
+      height: 36px;
+      margin: auto;
+      margin-top: 35px;
+      text-decoration: none;
+      text-align: center;
+      line-height: 31px;
+      background-color: white;
+      border-radius: 20px;
+      border: solid 2px #ff4e50;
+      transition: color 0.8s, background-color 0.8s;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 14px;
+      color: #ff4e50; }
+      .meetPartners a.partner_link:hover {
+        background-color: #ff4e50;
+        color: white; } }
