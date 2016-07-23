@@ -673,7 +673,7 @@ table {
           .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item.step2 {
             background: url(img/step2_desk.jpg) center no-repeat; }
             .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item.step2 h2 {
-              margin-top: 28px !important; }
+              margin-top: 45px !important; }
           .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item.step3 {
             background: url(img/step3_desk.jpg) center no-repeat; }
           .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item span {
@@ -704,7 +704,8 @@ table {
         height: 240px;
         text-align: center; }
         .meetPartners .partner figure img {
-          border-radius: 70px; }
+          border-radius: 100%;
+          margin-bottom: 20px; }
         .meetPartners .partner figure span {
           position: absolute;
           z-index: 99;
@@ -721,17 +722,19 @@ table {
           .meetPartners .partner figure span.planeIcon {
             background: url(img/meetPartnerIcon_sprite.png) 0px 0px no-repeat; }
         .meetPartners .partner figure h2 {
-          padding: 20px 0 0 0; }
+          padding: 0 0 16px 0; }
           .meetPartners .partner figure h2 a {
             text-decoration: none;
             font-family: 'Montserrat-Bold', sans-serif;
             font-size: 14px;
             color: #333333; }
         .meetPartners .partner figure figcaption {
-          padding: 13px 0 0 0;
           font-family: 'Roboto-Light', sans-serif;
           font-size: 14px;
-          color: #666666; }
+          color: #666666;
+          display: block;
+          height: 59px;
+          overflow: hidden; }
     .meetPartners a.partner_link {
       display: block;
       width: 185px;
@@ -816,66 +819,413 @@ table {
         color: white; } }
 @media (min-width: 768px) and (max-width: 1439px) {
   .meetPartners {
+    width: 492px;
+    margin: auto; }
+    .meetPartners {
+      background-color: white; }
+      .meetPartners h1 {
+        padding: 95px 0 30px 0;
+        text-align: center;
+        font-family: 'Montserrat-Bold', sans-serif;
+        font-size: 22px;
+        color: #333333; }
+      .meetPartners .partner {
+        text-align: center; }
+        .meetPartners .partner figure {
+          display: inline-block;
+          position: relative;
+          width: 220px;
+          height: 240px;
+          text-align: center; }
+          .meetPartners .partner figure img {
+            border-radius: 100%;
+            margin-bottom: 20px; }
+          .meetPartners .partner figure span {
+            position: absolute;
+            z-index: 99;
+            width: 42px;
+            height: 43px;
+            top: 86px;
+            right: 45px; }
+            .meetPartners .partner figure span.TVicon {
+              background: url(img/meetPartnerIcon_sprite.png) 0px -126px no-repeat; }
+            .meetPartners .partner figure span.bottleIcon {
+              background: url(img/meetPartnerIcon_sprite.png) 0px -43px no-repeat; }
+            .meetPartners .partner figure span.cupIcon {
+              background: url(img/meetPartnerIcon_sprite.png) 0px -86px no-repeat; }
+            .meetPartners .partner figure span.planeIcon {
+              background: url(img/meetPartnerIcon_sprite.png) 0px 0px no-repeat; }
+          .meetPartners .partner figure h2 {
+            padding: 0 0 16px 0; }
+            .meetPartners .partner figure h2 a {
+              text-decoration: none;
+              font-family: 'Montserrat-Bold', sans-serif;
+              font-size: 14px;
+              color: #333333; }
+          .meetPartners .partner figure figcaption {
+            font-family: 'Roboto-Light', sans-serif;
+            font-size: 14px;
+            color: #666666;
+            display: block;
+            height: 59px;
+            overflow: hidden; }
+      .meetPartners a.partner_link {
+        display: block;
+        width: 185px;
+        height: 36px;
+        margin: auto;
+        margin-top: 35px;
+        text-decoration: none;
+        text-align: center;
+        line-height: 31px;
+        background-color: white;
+        border-radius: 20px;
+        border: solid 2px #ff4e50;
+        transition: color 0.8s, background-color 0.8s;
+        font-family: 'Montserrat-Bold', sans-serif;
+        font-size: 14px;
+        color: #ff4e50; }
+        .meetPartners a.partner_link:hover {
+          background-color: #ff4e50;
+          color: white; }
+    .meetPartners .partner figure h2 {
+      padding: 0 0 20px 0; } }
+
+@media (min-width: 1440px) {
+  .discoverHoliday {
     background-color: white; }
-    .meetPartners h1 {
-      padding: 95px 0 30px 0;
+    .discoverHoliday h1 {
+      padding: 100px 0 33px 0;
+      text-align: center;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 22px;
+      color: #333333;
+      clear: both; }
+    .discoverHoliday .isotope-contaner {
+      height: 970px;
+      width: 1940px;
+      margin: auto; }
+      .discoverHoliday .isotope-contaner .isotope .item {
+        position: relative;
+        float: left; }
+        .discoverHoliday .isotope-contaner .isotope .item img {
+          border-radius: 15px;
+          width: 60%;
+          height: 60%;
+          padding: 10px 10px 10px 10px; }
+        .discoverHoliday .isotope-contaner .isotope .item a {
+          display: block;
+          position: absolute;
+          top: 20px;
+          left: 40px;
+          text-decoration: none;
+          font-family: 'Montserrat-Bold', sans-serif;
+          font-size: 22px;
+          color: white; }
+    .discoverHoliday p {
+      text-align: center;
+      font-family: 'Roboto-Light', sans-serif;
+      font-size: 18px;
+      color: #333333;
+      padding: 0 0 40px 0; }
+    .discoverHoliday form {
+      margin: auto;
+      text-align: center; }
+      .discoverHoliday form input {
+        width: 238px;
+        height: 39px;
+        font-family: 'Roboto-Light', sans-serif;
+        font-size: 14px;
+        color: #999999;
+        margin-bottom: 11px;
+        margin-right: 12px;
+        padding-left: 15px;
+        border: none;
+        border: solid 1px #999999;
+        border-radius: 3px; }
+      .discoverHoliday form button {
+        background-color: #ff4e50;
+        border: solid 2px #ff4e50;
+        border-radius: 20px;
+        width: 159px;
+        height: 39px;
+        color: white;
+        font-family: 'Montserrat-Bold', sans-serif;
+        font-size: 14px;
+        text-align: center; } }
+@media (max-width: 767px) {
+  .discoverHoliday {
+    background-color: white; }
+    .discoverHoliday h1 {
+      display: block;
+      padding-top: 39px;
+      padding-bottom: 19px;
       text-align: center;
       font-family: 'Montserrat-Bold', sans-serif;
       font-size: 22px;
       color: #333333; }
-    .meetPartners .partner {
-      text-align: center; }
-      .meetPartners .partner figure {
-        display: inline-block;
-        position: relative;
-        width: 220px;
-        height: 240px;
-        text-align: center; }
-        .meetPartners .partner figure img {
-          border-radius: 70px; }
-        .meetPartners .partner figure span {
-          position: absolute;
-          z-index: 99;
-          width: 42px;
-          height: 43px;
-          top: 86px;
-          right: 45px; }
-          .meetPartners .partner figure span.TVicon {
-            background: url(img/meetPartnerIcon_sprite.png) 0px -126px no-repeat; }
-          .meetPartners .partner figure span.bottleIcon {
-            background: url(img/meetPartnerIcon_sprite.png) 0px -43px no-repeat; }
-          .meetPartners .partner figure span.cupIcon {
-            background: url(img/meetPartnerIcon_sprite.png) 0px -86px no-repeat; }
-          .meetPartners .partner figure span.planeIcon {
-            background: url(img/meetPartnerIcon_sprite.png) 0px 0px no-repeat; }
-        .meetPartners .partner figure h2 {
-          padding: 20px 0 0 0; }
-          .meetPartners .partner figure h2 a {
-            text-decoration: none;
-            font-family: 'Montserrat-Bold', sans-serif;
-            font-size: 14px;
-            color: #333333; }
-        .meetPartners .partner figure figcaption {
-          padding: 13px 0 0 0;
-          font-family: 'Roboto-Light', sans-serif;
-          font-size: 14px;
-          color: #666666; }
-    .meetPartners a.partner_link {
-      display: block;
-      width: 185px;
-      height: 36px;
-      margin: auto;
-      margin-top: 35px;
-      text-decoration: none;
+    .discoverHoliday p {
       text-align: center;
-      line-height: 31px;
-      background-color: white;
-      border-radius: 20px;
-      border: solid 2px #ff4e50;
-      transition: color 0.8s, background-color 0.8s;
+      font-family: 'Roboto-Light', sans-serif;
+      font-size: 18px;
+      color: #333333;
+      padding: 0 0 16px 0; }
+    .discoverHoliday form {
+      margin: auto;
+      text-align: center; }
+      .discoverHoliday form input {
+        width: 278px;
+        height: 39px;
+        font-family: 'Roboto-Light', sans-serif;
+        font-size: 14px;
+        color: #999999;
+        margin-bottom: 11px;
+        padding-left: 15px;
+        border: none;
+        border: solid 1px #999999;
+        border-radius: 3px; }
+      .discoverHoliday form button {
+        background-color: #ff4e50;
+        border: solid 2px #ff4e50;
+        border-radius: 20px;
+        width: 278px;
+        height: 39px;
+        color: white;
+        font-family: 'Montserrat-Bold', sans-serif;
+        font-size: 14px;
+        text-align: center; } }
+@media (min-width: 768px) and (max-width: 1439px) {
+  .discoverHoliday {
+    background-color: white; }
+    .discoverHoliday h1 {
+      padding: 100px 0 33px 0;
+      text-align: center;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 22px;
+      color: #333333;
+      clear: both; }
+    .discoverHoliday .isotope-contaner {
+      height: 970px;
+      width: 1940px;
+      margin: auto; }
+      .discoverHoliday .isotope-contaner .isotope .item {
+        position: relative;
+        float: left; }
+        .discoverHoliday .isotope-contaner .isotope .item img {
+          border-radius: 15px;
+          width: 60%;
+          height: 60%;
+          padding: 10px 10px 10px 10px; }
+        .discoverHoliday .isotope-contaner .isotope .item a {
+          display: block;
+          position: absolute;
+          top: 20px;
+          left: 40px;
+          text-decoration: none;
+          font-family: 'Montserrat-Bold', sans-serif;
+          font-size: 22px;
+          color: white; }
+    .discoverHoliday p {
+      text-align: center;
+      font-family: 'Roboto-Light', sans-serif;
+      font-size: 18px;
+      color: #333333;
+      padding: 0 0 40px 0; }
+    .discoverHoliday form {
+      margin: auto;
+      text-align: center; }
+      .discoverHoliday form input {
+        width: 238px;
+        height: 39px;
+        font-family: 'Roboto-Light', sans-serif;
+        font-size: 14px;
+        color: #999999;
+        margin-bottom: 11px;
+        margin-right: 12px;
+        padding-left: 15px;
+        border: none;
+        border: solid 1px #999999;
+        border-radius: 3px; }
+      .discoverHoliday form button {
+        background-color: #ff4e50;
+        border: solid 2px #ff4e50;
+        border-radius: 20px;
+        width: 159px;
+        height: 39px;
+        color: white;
+        font-family: 'Montserrat-Bold', sans-serif;
+        font-size: 14px;
+        text-align: center; }
+  .discoverHoliday p {
+    padding: 5px 0 40px 0; } }
+
+@media (min-width: 1440px) {
+  .footer_container {
+    height: 200px;
+    margin-top: 100px;
+    background-color: white;
+    border-top: solid 4px #ff4e50; }
+    .footer_container h1 {
+      display: block;
+      float: left;
+      padding: 35px 0 0 224px;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 16px;
+      color: #ff4e50;
+      text-decoration: none; }
+    .footer_container h2 {
+      display: block;
+      padding: 35px 0 0 92px;
+      float: left;
       font-family: 'Montserrat-Bold', sans-serif;
       font-size: 14px;
-      color: #ff4e50; }
-      .meetPartners a.partner_link:hover {
-        background-color: #ff4e50;
-        color: white; } }
+      color: #333333; }
+      .footer_container h2 a {
+        text-decoration: none;
+        color: #333333;
+        transition: color 0.8s; }
+        .footer_container h2 a:hover {
+          color: #666666; }
+    .footer_container nav {
+      text-align: left;
+      display: block;
+      float: left;
+      padding: 35px 0 0 100px; }
+      .footer_container nav h2 {
+        display: block;
+        padding: 0 0 17px 0; }
+      .footer_container nav .nav_links {
+        padding: 6px 0 19px 0;
+        display: block; }
+        .footer_container nav .nav_links a {
+          display: block;
+          text-decoration: none;
+          padding-top: 13px;
+          font-family: 'Roboto-Light', sans-serif;
+          font-size: 14px;
+          color: #666666;
+          transition: color 0.8s; }
+          .footer_container nav .nav_links a:hover {
+            color: #333333; }
+    .footer_container .designedBy {
+      display: block;
+      float: right;
+      padding: 35px 235px 0 0;
+      text-align: center; }
+      .footer_container .designedBy h3 {
+        font-family: 'Montserrat-Bold', sans-serif;
+        font-size: 10px;
+        color: #cccccc;
+        padding-bottom: 10px; } }
+@media (max-width: 767px) {
+  .footer_container {
+    margin-top: 40px;
+    text-align: center;
+    background-color: white;
+    border-top: solid 4px #ff4e50; }
+    .footer_container h1 {
+      display: block;
+      padding-top: 14px;
+      padding-bottom: 18px;
+      text-align: center;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 16px;
+      color: #ff4e50;
+      text-decoration: none; }
+    .footer_container h2 {
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 14px;
+      color: #333333; }
+      .footer_container h2 a {
+        text-decoration: none;
+        color: #333333;
+        transition: color 0.8s; }
+        .footer_container h2 a:hover {
+          color: #666666; }
+    .footer_container nav {
+      text-align: center; }
+      .footer_container nav .nav_links {
+        padding: 6px 0 19px 0;
+        display: inline-block; }
+        .footer_container nav .nav_links a {
+          text-decoration: none;
+          font-family: 'Roboto-Light', sans-serif;
+          font-size: 14px;
+          color: #666666;
+          transition: color 0.8s; }
+          .footer_container nav .nav_links a:hover {
+            color: #333333; }
+    .footer_container .designedBy {
+      text-align: center;
+      padding: 18px 0 19px 0; }
+      .footer_container .designedBy h3 {
+        font-family: 'Montserrat-Bold', sans-serif;
+        font-size: 10px;
+        color: #cccccc;
+        padding-bottom: 10px; } }
+@media (min-width: 768px) and (max-width: 1439px) {
+  .footer_container {
+    height: 200px;
+    margin-top: 100px;
+    background-color: white;
+    border-top: solid 4px #ff4e50; }
+    .footer_container h1 {
+      display: block;
+      float: left;
+      padding: 35px 0 0 224px;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 16px;
+      color: #ff4e50;
+      text-decoration: none; }
+    .footer_container h2 {
+      display: block;
+      padding: 35px 0 0 92px;
+      float: left;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 14px;
+      color: #333333; }
+      .footer_container h2 a {
+        text-decoration: none;
+        color: #333333;
+        transition: color 0.8s; }
+        .footer_container h2 a:hover {
+          color: #666666; }
+    .footer_container nav {
+      text-align: left;
+      display: block;
+      float: left;
+      padding: 35px 0 0 100px; }
+      .footer_container nav h2 {
+        display: block;
+        padding: 0 0 17px 0; }
+      .footer_container nav .nav_links {
+        padding: 6px 0 19px 0;
+        display: block; }
+        .footer_container nav .nav_links a {
+          display: block;
+          text-decoration: none;
+          padding-top: 13px;
+          font-family: 'Roboto-Light', sans-serif;
+          font-size: 14px;
+          color: #666666;
+          transition: color 0.8s; }
+          .footer_container nav .nav_links a:hover {
+            color: #333333; }
+    .footer_container .designedBy {
+      display: block;
+      float: right;
+      padding: 35px 235px 0 0;
+      text-align: center; }
+      .footer_container .designedBy h3 {
+        font-family: 'Montserrat-Bold', sans-serif;
+        font-size: 10px;
+        color: #cccccc;
+        padding-bottom: 10px; }
+  .footer_container h1 {
+    padding: 35px 0 0 40px; }
+  .footer_container h2 {
+    padding: 35px 0 0 100px; }
+  .footer_container nav {
+    padding: 35px 0 0 72px; }
+  .footer_container .designedBy {
+    padding: 35px 37px 0 0; } }
