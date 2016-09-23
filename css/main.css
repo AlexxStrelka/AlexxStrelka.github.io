@@ -171,20 +171,19 @@ table {
     .header .LoginArea {
       display: inline-block;
       float: right;
-      width: 441px;
+      width: 420px;
       height: 60px;
-      padding: 35px 240px 0 0; }
+      padding: 37px 250px 0 0; }
       .header .LoginArea a {
         display: inline-block;
         width: 75px;
-        height: 36px;
+        line-height: 36px;
         text-decoration: none;
         cursor: pointer;
         color: white;
         border: solid 2px transparent;
         border-radius: 20px;
         text-align: center;
-        padding-top: 9px;
         transition: border-color 0.8s;
         font-family: 'Montserrat-Bold', sans-serif;
         font-size: 14px; }
@@ -194,13 +193,13 @@ table {
           width: 85px; }
     .header h1 {
       display: inline-block;
-      padding: 45px 0 0 236px;
+      padding: 48px 0 0 250px;
       font-family: 'Montserrat-Bold', sans-serif;
       font-size: 20px;
-      letter-spacing: 2px;
+      letter-spacing: 1px;
       color: white; }
     .header h2 {
-      padding-top: 165px;
+      padding-top: 150px;
       text-align: center;
       line-height: 60px;
       text-transform: uppercase;
@@ -210,17 +209,16 @@ table {
     .header h3 {
       padding-top: 30px;
       text-align: center;
-      font-family: 'Roboto-Thin', sans-serif;
+      font-family: 'Roboto-Light', sans-serif;
       font-size: 24px;
       color: white; }
     .header .findButton {
-      padding-top: 35px;
+      padding-top: 37px;
       text-align: center; }
       .header .findButton a {
         width: 220px;
-        height: 40px;
+        line-height: 40px;
         text-align: center;
-        padding-top: 12px;
         display: inline-block;
         text-decoration: none;
         cursor: pointer;
@@ -239,13 +237,13 @@ table {
     height: 537px;
     background: url(img/headerMobile_bg.jpg) center no-repeat; }
     .header .LoginArea {
-      width: 170px;
+      width: 180px;
       height: 60px;
       margin: auto;
       padding-top: 18px; }
       .header .LoginArea a {
         display: inline-block;
-        width: 75px;
+        width: 72px;
         height: 36px;
         text-decoration: none;
         cursor: pointer;
@@ -265,12 +263,12 @@ table {
     .header h1 {
       padding-top: 115px;
       text-align: center;
-      letter-spacing: 2px;
+      letter-spacing: 1px;
       font-family: 'Montserrat-Bold', sans-serif;
       font-size: 20px;
       color: white; }
     .header h2 {
-      padding-top: 38px;
+      padding-top: 29px;
       text-align: center;
       line-height: 35px;
       text-transform: uppercase;
@@ -316,20 +314,19 @@ table {
     .header .LoginArea {
       display: inline-block;
       float: right;
-      width: 441px;
+      width: 420px;
       height: 60px;
-      padding: 35px 240px 0 0; }
+      padding: 37px 250px 0 0; }
       .header .LoginArea a {
         display: inline-block;
         width: 75px;
-        height: 36px;
+        line-height: 36px;
         text-decoration: none;
         cursor: pointer;
         color: white;
         border: solid 2px transparent;
         border-radius: 20px;
         text-align: center;
-        padding-top: 9px;
         transition: border-color 0.8s;
         font-family: 'Montserrat-Bold', sans-serif;
         font-size: 14px; }
@@ -339,13 +336,13 @@ table {
           width: 85px; }
     .header h1 {
       display: inline-block;
-      padding: 45px 0 0 236px;
+      padding: 48px 0 0 250px;
       font-family: 'Montserrat-Bold', sans-serif;
       font-size: 20px;
-      letter-spacing: 2px;
+      letter-spacing: 1px;
       color: white; }
     .header h2 {
-      padding-top: 165px;
+      padding-top: 150px;
       text-align: center;
       line-height: 60px;
       text-transform: uppercase;
@@ -355,17 +352,16 @@ table {
     .header h3 {
       padding-top: 30px;
       text-align: center;
-      font-family: 'Roboto-Thin', sans-serif;
+      font-family: 'Roboto-Light', sans-serif;
       font-size: 24px;
       color: white; }
     .header .findButton {
-      padding-top: 35px;
+      padding-top: 37px;
       text-align: center; }
       .header .findButton a {
         width: 220px;
-        height: 40px;
+        line-height: 40px;
         text-align: center;
-        padding-top: 12px;
         display: inline-block;
         text-decoration: none;
         cursor: pointer;
@@ -379,14 +375,14 @@ table {
           background-color: white;
           color: #ff4e50; }
   .header .LoginArea {
-    padding: 35px 54px 0 0;
-    width: 220px; }
+    padding: 36px 50px 0 0;
+    width: 218px; }
   .header h1 {
-    padding: 45px 0 0 46px; }
+    padding: 48px 0 0 48px; }
   .header h2 {
-    padding-top: 155px; }
+    padding-top: 151px; }
   .header h3 {
-    padding-top: 20px; }
+    padding-top: 27px; }
   .header .findButton {
     padding-top: 37px; } }
 
@@ -394,18 +390,18 @@ table {
   .howItWorks {
     background-color: white; }
     .howItWorks h1 {
-      padding: 90px 0 33px 0;
+      padding: 98px 10px 32px 0;
       text-align: center;
       font-family: 'Montserrat-Bold', sans-serif;
       font-size: 22px;
       color: #333333; }
     .howItWorks .carousel-wrapper-block {
-      width: 940px;
+      width: 974px;
       margin: auto; }
       .howItWorks .carousel-wrapper-block .carousel-wrapper {
         width: 300px;
         display: inline-block;
-        padding-rigth: 20px; }
+        margin: 0 10px 0 10px; }
         .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel {
           width: 300px;
           height: 410px;
@@ -484,7 +480,7 @@ table {
   .howItWorks {
     background-color: white; }
     .howItWorks h1 {
-      padding: 35px 0 14px 0;
+      padding: 40px 0 14px 0;
       text-align: center;
       font-family: 'Montserrat-Bold', sans-serif;
       font-size: 22px;
@@ -569,18 +565,18 @@ table {
   .howItWorks {
     background-color: white; }
     .howItWorks h1 {
-      padding: 90px 0 33px 0;
+      padding: 98px 10px 32px 0;
       text-align: center;
       font-family: 'Montserrat-Bold', sans-serif;
       font-size: 22px;
       color: #333333; }
     .howItWorks .carousel-wrapper-block {
-      width: 940px;
+      width: 974px;
       margin: auto; }
       .howItWorks .carousel-wrapper-block .carousel-wrapper {
         width: 300px;
         display: inline-block;
-        padding-rigth: 20px; }
+        margin: 0 10px 0 10px; }
         .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel {
           width: 300px;
           height: 410px;
@@ -655,10 +651,12 @@ table {
             position: absolute;
             top: 150px;
             right: 20px; }
+  .howItWorks h1 {
+    padding: 97px 0px 36px 5px; }
   .howItWorks .carousel-wrapper-block {
     width: 770px; }
     .howItWorks .carousel-wrapper-block .carousel-wrapper {
-      width: 228px;
+      width: 232px;
       margin: 0 10px 0 10px;
       padding-right: 0; }
       .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel {
@@ -677,7 +675,7 @@ table {
           .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item.step3 {
             background: url(img/step3_desk.jpg) center no-repeat; }
           .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item span {
-            padding: 210px 0 0 20px;
+            padding: 213px 0 0 18px;
             width: 228px; }
             .howItWorks .carousel-wrapper-block .carousel-wrapper .jcarousel .jcarousel__item span p {
               width: 205px; }
@@ -690,7 +688,7 @@ table {
   .meetPartners {
     background-color: white; }
     .meetPartners h1 {
-      padding: 95px 0 30px 0;
+      padding: 89px 0 30px;
       text-align: center;
       font-family: 'Montserrat-Bold', sans-serif;
       font-size: 22px;
@@ -700,19 +698,20 @@ table {
       .meetPartners .partner figure {
         display: inline-block;
         position: relative;
-        width: 220px;
+        text-align: center;
+        width: 244px;
         height: 240px;
-        text-align: center; }
+        margin: 0 -16px 0 8px; }
         .meetPartners .partner figure img {
           border-radius: 100%;
-          margin-bottom: 20px; }
+          margin: 0 22px 13px 0; }
         .meetPartners .partner figure span {
           position: absolute;
           z-index: 99;
           width: 42px;
           height: 43px;
-          top: 86px;
-          right: 45px; }
+          top: 85px;
+          right: 70px; }
           .meetPartners .partner figure span.TVicon {
             background: url(img/meetPartnerIcon_sprite.png) 0px -126px no-repeat; }
           .meetPartners .partner figure span.bottleIcon {
@@ -722,7 +721,7 @@ table {
           .meetPartners .partner figure span.planeIcon {
             background: url(img/meetPartnerIcon_sprite.png) 0px 0px no-repeat; }
         .meetPartners .partner figure h2 {
-          padding: 0 0 16px 0; }
+          padding: 1px 29px 17px 2px; }
           .meetPartners .partner figure h2 a {
             text-decoration: none;
             font-family: 'Montserrat-Bold', sans-serif;
@@ -733,17 +732,18 @@ table {
           font-size: 14px;
           color: #666666;
           display: block;
-          height: 59px;
+          height: 60px;
+          width: 211px;
           overflow: hidden; }
     .meetPartners a.partner_link {
       display: block;
-      width: 185px;
-      height: 36px;
+      width: 194px;
+      height: 38px;
       margin: auto;
-      margin-top: 35px;
+      margin-top: 33px;
       text-decoration: none;
       text-align: center;
-      line-height: 31px;
+      line-height: 34px;
       background-color: white;
       border-radius: 20px;
       border: solid 2px #ff4e50;
@@ -758,7 +758,9 @@ table {
   .meetPartners {
     background-color: white; }
     .meetPartners h1 {
-      padding: 27px 0 0 0;
+      padding: 39px 0 0;
+      width: 312px;
+      line-height: 24px;
       text-align: center;
       font-family: 'Montserrat-Bold', sans-serif;
       font-size: 22px;
@@ -767,7 +769,7 @@ table {
       margin: auto;
       position: relative;
       width: 215px;
-      padding: 18px 0 0 0;
+      padding: 26px 0 0px 0;
       text-align: center; }
       .meetPartners figure img {
         border-radius: 70px; }
@@ -787,26 +789,25 @@ table {
         .meetPartners figure span.planeIcon {
           background: url(img/meetPartnerIcon_sprite.png) 0px 0px no-repeat; }
       .meetPartners figure h2 {
-        padding: 20px 0 0 0; }
+        padding: 13px 0 0 0; }
         .meetPartners figure h2 a {
           text-decoration: none;
           font-family: 'Montserrat-Bold', sans-serif;
           font-size: 14px;
           color: #333333; }
       .meetPartners figure figcaption {
-        padding: 13px 0 0 0;
+        padding: 16px 0 0 0;
         font-family: 'Roboto-Light', sans-serif;
         font-size: 14px;
         color: #666666; }
     .meetPartners a.partner_link {
       display: block;
-      width: 278px;
-      height: 36px;
-      margin: auto;
-      margin-top: 25px;
+      width: 280px;
+      height: 41px;
+      margin: 34px auto auto;
       text-decoration: none;
       text-align: center;
-      line-height: 31px;
+      line-height: 35px;
       background-color: white;
       border-radius: 20px;
       border: solid 2px #ff4e50;
@@ -824,7 +825,7 @@ table {
     .meetPartners {
       background-color: white; }
       .meetPartners h1 {
-        padding: 95px 0 30px 0;
+        padding: 89px 0 30px;
         text-align: center;
         font-family: 'Montserrat-Bold', sans-serif;
         font-size: 22px;
@@ -834,19 +835,20 @@ table {
         .meetPartners .partner figure {
           display: inline-block;
           position: relative;
-          width: 220px;
+          text-align: center;
+          width: 244px;
           height: 240px;
-          text-align: center; }
+          margin: 0 -16px 0 8px; }
           .meetPartners .partner figure img {
             border-radius: 100%;
-            margin-bottom: 20px; }
+            margin: 0 22px 13px 0; }
           .meetPartners .partner figure span {
             position: absolute;
             z-index: 99;
             width: 42px;
             height: 43px;
-            top: 86px;
-            right: 45px; }
+            top: 85px;
+            right: 70px; }
             .meetPartners .partner figure span.TVicon {
               background: url(img/meetPartnerIcon_sprite.png) 0px -126px no-repeat; }
             .meetPartners .partner figure span.bottleIcon {
@@ -856,7 +858,7 @@ table {
             .meetPartners .partner figure span.planeIcon {
               background: url(img/meetPartnerIcon_sprite.png) 0px 0px no-repeat; }
           .meetPartners .partner figure h2 {
-            padding: 0 0 16px 0; }
+            padding: 1px 29px 17px 2px; }
             .meetPartners .partner figure h2 a {
               text-decoration: none;
               font-family: 'Montserrat-Bold', sans-serif;
@@ -867,17 +869,18 @@ table {
             font-size: 14px;
             color: #666666;
             display: block;
-            height: 59px;
+            height: 60px;
+            width: 211px;
             overflow: hidden; }
       .meetPartners a.partner_link {
         display: block;
-        width: 185px;
-        height: 36px;
+        width: 194px;
+        height: 38px;
         margin: auto;
-        margin-top: 35px;
+        margin-top: 33px;
         text-decoration: none;
         text-align: center;
-        line-height: 31px;
+        line-height: 34px;
         background-color: white;
         border-radius: 20px;
         border: solid 2px #ff4e50;
@@ -888,35 +891,107 @@ table {
         .meetPartners a.partner_link:hover {
           background-color: #ff4e50;
           color: white; }
-    .meetPartners .partner figure h2 {
-      padding: 0 0 20px 0; } }
+    .meetPartners h1 {
+      padding: 96px 5px 31px 0; }
+    .meetPartners .partner figure {
+      width: 248px;
+      height: 257px;
+      margin: 0px -15px 0 10px; }
+      .meetPartners .partner figure h2 {
+        padding: 2px 38px 15px 4px; }
+    .meetPartners a.partner_link {
+      width: 192px;
+      height: 39px;
+      margin: 15px auto auto; } }
 
 @media (min-width: 1440px) {
   .discoverHoliday {
     background-color: white; }
     .discoverHoliday h1 {
-      padding: 100px 0 33px 0;
+      padding: 100px 10px 27px 0;
       text-align: center;
       font-family: 'Montserrat-Bold', sans-serif;
       font-size: 22px;
       color: #333333;
       clear: both; }
     .discoverHoliday .isotope-contaner {
-      height: 970px;
-      width: 1940px;
       margin: auto; }
       .discoverHoliday .isotope-contaner .isotope .item {
         position: relative;
+        width: 33%;
         float: left; }
+        .discoverHoliday .isotope-contaner .isotope .item .item-image-wrapper {
+          padding: 15px; }
+          .discoverHoliday .isotope-contaner .isotope .item .item-image-wrapper img {
+            width: 100%;
+            border-radius: 15px; }
+          .discoverHoliday .isotope-contaner .isotope .item .item-image-wrapper a {
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 40px;
+            text-decoration: none;
+            font-family: 'Montserrat-Bold', sans-serif;
+            font-size: 22px;
+            color: white; }
+    .discoverHoliday p {
+      text-align: center;
+      font-family: 'Roboto-Light', sans-serif;
+      font-size: 18px;
+      color: #333333;
+      padding: 7px 17px 41px 8px; }
+    .discoverHoliday form {
+      margin: auto;
+      text-align: center; }
+      .discoverHoliday form input {
+        width: 238px;
+        height: 39px;
+        line-height: 39px;
+        font-family: 'Roboto-Light', sans-serif;
+        font-size: 14px;
+        color: #999999;
+        margin-bottom: 11px;
+        margin-right: 14px;
+        padding-left: 14px;
+        border: none;
+        border: solid 1px #999999;
+        border-radius: 3px; }
+      .discoverHoliday form button {
+        background-color: #ff4e50;
+        border: solid 2px #ff4e50;
+        border-radius: 20px;
+        width: 158px;
+        height: 40px;
+        margin-right: 10px;
+        color: white;
+        font-family: 'Montserrat-Bold', sans-serif;
+        font-size: 14px;
+        text-align: center; } }
+@media (max-width: 767px) {
+  .discoverHoliday {
+    background-color: white; }
+    .discoverHoliday h1 {
+      display: block;
+      padding-top: 35px;
+      line-height: 25px;
+      padding-bottom: 4px;
+      text-align: center;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 22px;
+      color: #333333; }
+    .discoverHoliday .isotope-contaner {
+      margin: auto; }
+      .discoverHoliday .isotope-contaner .isotope .item {
+        position: relative;
+        width: 100%; }
         .discoverHoliday .isotope-contaner .isotope .item img {
+          width: 100%;
           border-radius: 15px;
-          width: 60%;
-          height: 60%;
           padding: 10px 10px 10px 10px; }
         .discoverHoliday .isotope-contaner .isotope .item a {
           display: block;
           position: absolute;
-          top: 20px;
+          top: 50%;
           left: 40px;
           text-decoration: none;
           font-family: 'Montserrat-Bold', sans-serif;
@@ -927,59 +1002,19 @@ table {
       font-family: 'Roboto-Light', sans-serif;
       font-size: 18px;
       color: #333333;
-      padding: 0 0 40px 0; }
-    .discoverHoliday form {
-      margin: auto;
-      text-align: center; }
-      .discoverHoliday form input {
-        width: 238px;
-        height: 39px;
-        font-family: 'Roboto-Light', sans-serif;
-        font-size: 14px;
-        color: #999999;
-        margin-bottom: 11px;
-        margin-right: 12px;
-        padding-left: 15px;
-        border: none;
-        border: solid 1px #999999;
-        border-radius: 3px; }
-      .discoverHoliday form button {
-        background-color: #ff4e50;
-        border: solid 2px #ff4e50;
-        border-radius: 20px;
-        width: 159px;
-        height: 39px;
-        color: white;
-        font-family: 'Montserrat-Bold', sans-serif;
-        font-size: 14px;
-        text-align: center; } }
-@media (max-width: 767px) {
-  .discoverHoliday {
-    background-color: white; }
-    .discoverHoliday h1 {
-      display: block;
-      padding-top: 39px;
-      padding-bottom: 19px;
-      text-align: center;
-      font-family: 'Montserrat-Bold', sans-serif;
-      font-size: 22px;
-      color: #333333; }
-    .discoverHoliday p {
-      text-align: center;
-      font-family: 'Roboto-Light', sans-serif;
-      font-size: 18px;
-      color: #333333;
-      padding: 0 0 16px 0; }
+      padding: 8px 0 0 0px; }
     .discoverHoliday form {
       margin: auto;
       text-align: center; }
       .discoverHoliday form input {
         width: 278px;
         height: 39px;
+        line-height: 39px;
         font-family: 'Roboto-Light', sans-serif;
         font-size: 14px;
         color: #999999;
         margin-bottom: 11px;
+        margin-top: 20px;
         padding-left: 15px;
         border: none;
         border: solid 1px #999999;
@@ -998,51 +1033,51 @@ table {
   .discoverHoliday {
     background-color: white; }
     .discoverHoliday h1 {
-      padding: 100px 0 33px 0;
+      padding: 100px 10px 27px 0;
       text-align: center;
       font-family: 'Montserrat-Bold', sans-serif;
       font-size: 22px;
       color: #333333;
       clear: both; }
     .discoverHoliday .isotope-contaner {
-      height: 970px;
-      width: 1940px;
       margin: auto; }
       .discoverHoliday .isotope-contaner .isotope .item {
         position: relative;
+        width: 33%;
         float: left; }
-        .discoverHoliday .isotope-contaner .isotope .item img {
-          border-radius: 15px;
-          width: 60%;
-          height: 60%;
-          padding: 10px 10px 10px 10px; }
-        .discoverHoliday .isotope-contaner .isotope .item a {
-          display: block;
-          position: absolute;
-          top: 20px;
-          left: 40px;
-          text-decoration: none;
-          font-family: 'Montserrat-Bold', sans-serif;
-          font-size: 22px;
-          color: white; }
+        .discoverHoliday .isotope-contaner .isotope .item .item-image-wrapper {
+          padding: 15px; }
+          .discoverHoliday .isotope-contaner .isotope .item .item-image-wrapper img {
+            width: 100%;
+            border-radius: 15px; }
+          .discoverHoliday .isotope-contaner .isotope .item .item-image-wrapper a {
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 40px;
+            text-decoration: none;
+            font-family: 'Montserrat-Bold', sans-serif;
+            font-size: 22px;
+            color: white; }
     .discoverHoliday p {
       text-align: center;
       font-family: 'Roboto-Light', sans-serif;
       font-size: 18px;
       color: #333333;
-      padding: 0 0 40px 0; }
+      padding: 7px 17px 41px 8px; }
     .discoverHoliday form {
       margin: auto;
       text-align: center; }
       .discoverHoliday form input {
         width: 238px;
         height: 39px;
+        line-height: 39px;
         font-family: 'Roboto-Light', sans-serif;
         font-size: 14px;
         color: #999999;
         margin-bottom: 11px;
-        margin-right: 12px;
-        padding-left: 15px;
+        margin-right: 14px;
+        padding-left: 14px;
         border: none;
         border: solid 1px #999999;
         border-radius: 3px; }
@@ -1050,25 +1085,33 @@ table {
         background-color: #ff4e50;
         border: solid 2px #ff4e50;
         border-radius: 20px;
-        width: 159px;
-        height: 39px;
+        width: 158px;
+        height: 40px;
+        margin-right: 10px;
         color: white;
         font-family: 'Montserrat-Bold', sans-serif;
         font-size: 14px;
         text-align: center; }
+  .discoverHoliday h1 {
+    padding: 99px 4px 27px 0; }
   .discoverHoliday p {
-    padding: 5px 0 40px 0; } }
+    padding: 9px 0 40px; }
+  .discoverHoliday input {
+    margin-right: 0px; }
+  .discoverHoliday button {
+    margin-right: 3px; } }
 
 @media (min-width: 1440px) {
   .footer_container {
     height: 200px;
-    margin-top: 100px;
+    margin-top: 89px;
     background-color: white;
     border-top: solid 4px #ff4e50; }
     .footer_container h1 {
       display: block;
       float: left;
-      padding: 35px 0 0 224px;
+      padding: 38px 0 0 248px;
+      letter-spacing: 1px;
       font-family: 'Montserrat-Bold', sans-serif;
       font-size: 16px;
       color: #ff4e50;
@@ -1089,18 +1132,22 @@ table {
     .footer_container nav {
       text-align: left;
       display: block;
+      position: relative;
+      height: 300px;
       float: left;
-      padding: 35px 0 0 100px; }
+      padding: 38px 0 0 97px; }
       .footer_container nav h2 {
         display: block;
         padding: 0 0 17px 0; }
       .footer_container nav .nav_links {
         padding: 6px 0 19px 0;
-        display: block; }
+        display: block;
+        position: absolute;
+        top: 55px; }
         .footer_container nav .nav_links a {
           display: block;
           text-decoration: none;
-          padding-top: 13px;
+          padding-top: 10px;
           font-family: 'Roboto-Light', sans-serif;
           font-size: 14px;
           color: #666666;
@@ -1110,7 +1157,7 @@ table {
     .footer_container .designedBy {
       display: block;
       float: right;
-      padding: 35px 235px 0 0;
+      padding: 37px 254px 0 0;
       text-align: center; }
       .footer_container .designedBy h3 {
         font-family: 'Montserrat-Bold', sans-serif;
@@ -1125,8 +1172,8 @@ table {
     border-top: solid 4px #ff4e50; }
     .footer_container h1 {
       display: block;
-      padding-top: 14px;
-      padding-bottom: 18px;
+      padding: 18px 2px 14px 0px;
+      letter-spacing: 1px;
       text-align: center;
       font-family: 'Montserrat-Bold', sans-serif;
       font-size: 16px;
@@ -1145,10 +1192,11 @@ table {
     .footer_container nav {
       text-align: center; }
       .footer_container nav .nav_links {
-        padding: 6px 0 19px 0;
+        padding: 6px 0 14px 0;
         display: inline-block; }
         .footer_container nav .nav_links a {
           text-decoration: none;
+          padding: 0 5px 0 5px;
           font-family: 'Roboto-Light', sans-serif;
           font-size: 14px;
           color: #666666;
@@ -1157,7 +1205,7 @@ table {
             color: #333333; }
     .footer_container .designedBy {
       text-align: center;
-      padding: 18px 0 19px 0; }
+      padding: 16px 0 19px 0; }
       .footer_container .designedBy h3 {
         font-family: 'Montserrat-Bold', sans-serif;
         font-size: 10px;
@@ -1165,67 +1213,74 @@ table {
         padding-bottom: 10px; } }
 @media (min-width: 768px) and (max-width: 1439px) {
   .footer_container {
-    height: 200px;
-    margin-top: 100px;
-    background-color: white;
-    border-top: solid 4px #ff4e50; }
-    .footer_container h1 {
-      display: block;
-      float: left;
-      padding: 35px 0 0 224px;
-      font-family: 'Montserrat-Bold', sans-serif;
-      font-size: 16px;
-      color: #ff4e50;
-      text-decoration: none; }
-    .footer_container h2 {
-      display: block;
-      padding: 35px 0 0 92px;
-      float: left;
-      font-family: 'Montserrat-Bold', sans-serif;
-      font-size: 14px;
-      color: #333333; }
-      .footer_container h2 a {
-        text-decoration: none;
-        color: #333333;
-        transition: color 0.8s; }
-        .footer_container h2 a:hover {
-          color: #666666; }
-    .footer_container nav {
-      text-align: left;
-      display: block;
-      float: left;
-      padding: 35px 0 0 100px; }
-      .footer_container nav h2 {
+    margin-top: 91px; }
+    .footer_container {
+      height: 200px;
+      margin-top: 89px;
+      background-color: white;
+      border-top: solid 4px #ff4e50; }
+      .footer_container h1 {
         display: block;
-        padding: 0 0 17px 0; }
-      .footer_container nav .nav_links {
-        padding: 6px 0 19px 0;
-        display: block; }
-        .footer_container nav .nav_links a {
-          display: block;
-          text-decoration: none;
-          padding-top: 13px;
-          font-family: 'Roboto-Light', sans-serif;
-          font-size: 14px;
-          color: #666666;
-          transition: color 0.8s; }
-          .footer_container nav .nav_links a:hover {
-            color: #333333; }
-    .footer_container .designedBy {
-      display: block;
-      float: right;
-      padding: 35px 235px 0 0;
-      text-align: center; }
-      .footer_container .designedBy h3 {
+        float: left;
+        padding: 38px 0 0 248px;
+        letter-spacing: 1px;
         font-family: 'Montserrat-Bold', sans-serif;
-        font-size: 10px;
-        color: #cccccc;
-        padding-bottom: 10px; }
-  .footer_container h1 {
-    padding: 35px 0 0 40px; }
-  .footer_container h2 {
-    padding: 35px 0 0 100px; }
-  .footer_container nav {
-    padding: 35px 0 0 72px; }
-  .footer_container .designedBy {
-    padding: 35px 37px 0 0; } }
+        font-size: 16px;
+        color: #ff4e50;
+        text-decoration: none; }
+      .footer_container h2 {
+        display: block;
+        padding: 35px 0 0 92px;
+        float: left;
+        font-family: 'Montserrat-Bold', sans-serif;
+        font-size: 14px;
+        color: #333333; }
+        .footer_container h2 a {
+          text-decoration: none;
+          color: #333333;
+          transition: color 0.8s; }
+          .footer_container h2 a:hover {
+            color: #666666; }
+      .footer_container nav {
+        text-align: left;
+        display: block;
+        position: relative;
+        height: 300px;
+        float: left;
+        padding: 38px 0 0 97px; }
+        .footer_container nav h2 {
+          display: block;
+          padding: 0 0 17px 0; }
+        .footer_container nav .nav_links {
+          padding: 6px 0 19px 0;
+          display: block;
+          position: absolute;
+          top: 55px; }
+          .footer_container nav .nav_links a {
+            display: block;
+            text-decoration: none;
+            padding-top: 10px;
+            font-family: 'Roboto-Light', sans-serif;
+            font-size: 14px;
+            color: #666666;
+            transition: color 0.8s; }
+            .footer_container nav .nav_links a:hover {
+              color: #333333; }
+      .footer_container .designedBy {
+        display: block;
+        float: right;
+        padding: 37px 254px 0 0;
+        text-align: center; }
+        .footer_container .designedBy h3 {
+          font-family: 'Montserrat-Bold', sans-serif;
+          font-size: 10px;
+          color: #cccccc;
+          padding-bottom: 10px; }
+    .footer_container h1 {
+      padding: 38px 0 0 38px; }
+    .footer_container h2 {
+      padding: 38px 0 0 104px; }
+    .footer_container nav {
+      padding: 38px 0 0 81px; }
+    .footer_container .designedBy {
+      padding: 38px 40px 0 0; } }
