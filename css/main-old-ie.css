@@ -401,7 +401,8 @@ table {
     color: #333333;
     clear: both; }
   .discoverHoliday .isotope-contaner {
-    margin: auto; }
+    margin: auto;
+    width: 940px; }
     .discoverHoliday .isotope-contaner .isotope .item {
       position: relative;
       width: 33%;

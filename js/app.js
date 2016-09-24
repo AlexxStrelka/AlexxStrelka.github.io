@@ -55,13 +55,12 @@ var loadImages = function(searchInput, e){
 					imagesToLoad--;
 					if (imagesToLoad <= 0) {
 						container.isotope({
-							masonry: {  }
+							masonry: { 	 }
 						});
 
 						$(window).smartresize(function(){
 							container.isotope({
 								masonry: {
-
 								}
 							});
 						});
