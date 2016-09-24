@@ -14,7 +14,7 @@ var loadImages = function(searchInput, e){
 	
 //Добавляем ключевое слово поиска к URL запроса and KEY
 	var APIkey = '2968420-d00a0636cd5a05d99ce5547d4';
-	var urlik = "https://pixabay.com/api/?key="+APIkey+"&q="+ searchInput + "&per_page=12";
+	var urlik = "https://pixabay.com/api/?key="+APIkey+"&q="+ searchInput + "&per_page=7";
   
 
 	$.ajax({
